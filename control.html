@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de etiquetas</title>
+    <link rel="stylesheet"href="src/css/tema.css">
+</head>
+<body>
+    <main>
+        <header id="hprincipal">
+            <div class="logo"></div>
+            <h1>Lista de etiquetas</h1>
+
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Estructurales</a></li>
+                <li><a href="multimedia.html">multimedia</a></li>
+                <li><a class="activo" href="control.html">Control</a></li>
+            </ul>
+           
+        </nav>
+         <div>
+            <table>
+        <caption>Etiquetas de Control (formularios y Entradas)</caption>
+        <thead>
+            <tr>
+                <th>Etiqueta</th>
+                <th>Descripción</th>
+                <th>Propiedades</th>
+                <th>Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;form&gt;</code></td>
+                <td>Contenedor para controles que envían datos al servidor.</td>
+                <td>action, method (GET/POST), enctype.</td>
+                <td>
+                    <form action="#" method="GET"><input type="text" placeholder="Nombre"><input type="submit" value="Enviar"></form>
+                </td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;input type="text"&gt;</code></td>
+                <td>Campo de texto de una sola línea.</td>
+                <td>type, name, placeholder, value, required, maxlength.</td>
+                <td><input type="text" placeholder="Escribe tu nombre"></td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;input type="email"&gt;</code></td>
+                <td>Campo para capturar emails (valida formato).</td>
+                <td>type="email", name, required, placeholder.</td>
+                <td><input type="email" placeholder="correo@ejemplo.com"></td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;textarea&gt;</code></td>
+                <td>Campo de texto multilínea.</td>
+                <td>rows, cols, placeholder, maxlength.</td>
+                <td><textarea rows="3" cols="25" placeholder="Escribe un comentario"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;select&gt; &lt;option&gt;</code></td>
+                <td>Lista desplegable y sus opciones.</td>
+                <td>name, multiple, size; option value, selected.</td>
+                <td>
+                    <select>
+                        <option value="1">Opción 1</option>
+                        <option value="2">Opción 2</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;button&gt;</code></td>
+                <td>Botón interactivo (submit, button, reset).</td>
+                <td>type, onclick, disabled.</td>
+                <td><button type="button" onclick="alert('¡Hola Mundo!')">Haz clic</button></td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;label&gt;</code></td>
+                <td>Etiqueta textual asociada a un control de formulario (accesibilidad).</td>
+                <td>for (id del control).</td>
+                <td><label for="miinput">Nombre:</label> <input id="miinput" type="text"></td>
+            </tr>
+        </tbody>
+    </table>
+        </div>
+        <footer id="fprincipal">
+            <div><p>© 2025 Tabla de etiquetas HTLM5 | Proyecto de práctica HTML5 y CSS 
+                <address> Autor: Jaider Marimon estudiante SENA | Contacto: Ficha3118302.com</address></p>
+            </div>
+
+        </footer>
+    </main>
+    
+</body>
+</html>
