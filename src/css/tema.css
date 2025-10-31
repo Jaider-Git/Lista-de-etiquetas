@@ -1,22 +1,22 @@
-@font-face{
+@font-face {
     font-family: Arial, Helvetica, sans-serif;
     src: url("../assets/tipografia.ttf");
 }
 
-*{
+* {
     border: 0px;
     padding: 0px;
     margin: 0px;
 }
 
-body{
+body {
     background-image: url(../assets/img/Fondo.png);
     font-family: arial;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-main{
+main {
     position: relative;
     border: 1px solid #000;
     width: 1500px;
@@ -25,7 +25,7 @@ main{
     background-color: #ffffffcc;
 }
 
-header#hprincipal{
+header#hprincipal {
     font-family: Arial;
     position: relative;
     width: 100%;
@@ -37,7 +37,7 @@ header#hprincipal{
     background-position: center;
 }
 
-header#hprincipal .logo{
+header#hprincipal .logo {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -47,33 +47,33 @@ header#hprincipal .logo{
     background-size: 100%;
 }
 
-header#hprincipal h1{
-    position:absolute;
+header#hprincipal h1 {
+    position: absolute;
     left: 150px;
     top: 60px;
     color: #fff;
 }
 
-nav.menu{
+nav.menu {
     border-bottom: 1px solid #aaa8a8;
     position: relative;
     background-color: transparent;
     margin-top: 3px;
 }
 
-nav.menu ul{
+nav.menu ul {
     position: relative;
     width: 100%;
 }
 
-nav.menu ul li{
+nav.menu ul li {
     position: relative;
     display: inline-block;
     vertical-align: top;
     list-style: none;
 }
 
-nav.menu ul li a{
+nav.menu ul li a {
     display: block;
     position: relative;
     text-decoration: none;
@@ -82,12 +82,13 @@ nav.menu ul li a{
     border-radius: 3px;
 }
 
-nav.menu ul li a:hover, nav.menu ul li a.activo{
+nav.menu ul li a:hover,
+nav.menu ul li a.activo {
     background-color: #a1a1a1;
     transform: translateY(-2px);
 }
 
-footer#fprincipal{
+footer#fprincipal {
     position: relative;
     width: 100%;
     height: 100px;
@@ -101,40 +102,44 @@ footer#fprincipal{
 
 }
 
-div p, address{
+div p,
+address {
     position: relative;
     top: 25px;
 }
 
-table, tr, td, th{
+table,
+tr,
+td,
+th {
     border: 1px solid #999;
     border-collapse: collapse;
     padding: 10px;
 }
 
-table{
+table {
     position: relative;
-    width:95%;
+    width: 95%;
     margin: 20px auto;
 }
 
 caption {
-    font-size: 25px;    
+    font-size: 25px;
 }
 
-table thead{
+table thead {
     border-color: #000;
 }
 
-table tbody tr:nth-child(odd){
+table tbody tr:nth-child(odd) {
     background-color: #a1a1a1;
 }
 
-table tbody tr:nth-child(even){
+table tbody tr:nth-child(even) {
     background-color: #3b37324d;
 }
 
-code{
+code {
     background-color: #eef;
     padding: 2px 6px;
     border-radius: 4px;

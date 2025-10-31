@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de etiquetas</title>
-    <link rel="stylesheet"href="src/css/tema.css">
+    <link rel="stylesheet" href="src/css/tema.css">
 </head>
+
 <body>
     <main>
         <header id="hprincipal">
@@ -19,83 +21,89 @@
                 <li><a class="activo" href="multimedia.html">multimedia</a></li>
                 <li><a href="control.html">Control</a></li>
             </ul>
-           
+
         </nav>
-         <div>
+        <div>
             <table>
-        <caption>Etiquetas Multimedia</caption>
-        <thead>
-            <tr>
-                <th>Etiqueta</th>
-                <th>Descripción</th>
-                <th>Propiedades</th>
-                <th>Ejemplo</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><code>&lt;img&gt;</code></td>
-                <td>Inserta imágenes.</td>
-                <td><strong>src</strong>, <strong>alt</strong>, width, height.</td>
-                <td>
-                    <img src="src/assets/img/logo.png" alt="" width="80">
-                </td>
-            </tr>
+                <caption>Etiquetas Multimedia</caption>
+                <thead>
+                    <tr>
+                        <th>Etiqueta</th>
+                        <th>Descripción</th>
+                        <th>Propiedades</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;img&gt;</code></td>
+                        <td>Inserta imágenes.</td>
+                        <td><strong>src</strong>, <strong>alt</strong>, width, height.</td>
+                        <td>
+                            <img src="src/assets/img/logo.png" alt="" width="80">
+                        </td>
+                    </tr>
 
-            <tr>
-                <td><code>&lt;figure&gt; / &lt;figcaption&gt;</code></td>
-                <td>Figura con su leyenda (imagen + pie explicativo).</td>
-                <td>usualmente contiene &lt;img&gt; y &lt;figcaption&gt;.</td>
-                <td>
-                    <figure>
-                        <img src="src/assets/img/interstellar.png" alt="Interstellar" width="80">
-                        <figcaption>Interstellar (2014)</figcaption>
-                    </figure>
-                </td>
-            </tr>
+                    <tr>
+                        <td><code>&lt;figure&gt; / &lt;figcaption&gt;</code></td>
+                        <td>Figura con su leyenda (imagen + pie explicativo).</td>
+                        <td>usualmente contiene &lt;img&gt; y &lt;figcaption&gt;.</td>
+                        <td>
+                            <figure>
+                                <img src="src/assets/img/interstellar.png" alt="Interstellar" width="80">
+                                <figcaption>Interstellar (2014)</figcaption>
+                            </figure>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td><code>&lt;audio&gt;</code></td>
-                <td>Reproductor de audio nativo.</td>
-                <td>controls, src, autoplay, loop.</td>
-                <td>
-                    <audio controls style="width:160px;">
-                        <source src="src/assets/img/horse.mp3" type="audio/mp3">
-                        Tu navegador no soporta audio.
-                    </audio>
-                </td>
-            </tr>
+                    <tr>
+                        <td><code>&lt;audio&gt;</code></td>
+                        <td>Reproductor de audio nativo.</td>
+                        <td>controls, src, autoplay, loop.</td>
+                        <td>
+                            <audio controls style="width:160px;">
+                                <source src="src/assets/img/horse.mp3" type="audio/mp3">
+                                Tu navegador no soporta audio.
+                            </audio>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td><code>&lt;video&gt;</code></td>
-                <td>Reproductor de video nativo.</td>
-                <td>controls, src, width, poster, autoplay.</td>
-                <td>
-                    <video autoplay muted loop width="200" height="100" controls>
-                        <source src="src/assets/img/perro.mp4" type="video/mp4">
+                    <tr>
+                        <td><code>&lt;video&gt;</code></td>
+                        <td>Reproductor de video nativo.</td>
+                        <td>controls, src, width, poster, autoplay.</td>
+                        <td>
+                            <video autoplay muted loop width="200" height="100" controls>
+                                <source src="src/assets/img/perro.mp4" type="video/mp4">
 
-                    </video>
-                </td>
-            </tr>
+                            </video>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td><code>&lt;iframe&gt;</code></td>
-                <td>Inserta contenido externo (mapas, vídeos embebidos, etc.).</td>
-                <td>src, width, height, title.</td>
-                <td>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15703.158029814143!2d-75.516023!3d10.278537149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1761068804250!5m2!1ses-419!2sco" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </tr>
-        </tbody>
-    </table>
+                    <tr>
+                        <td><code>&lt;iframe&gt;</code></td>
+                        <td>Inserta contenido externo (mapas, vídeos embebidos, etc.).</td>
+                        <td>src, width, height, title.</td>
+                        <td>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15703.158029814143!2d-75.516023!3d10.278537149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1761068804250!5m2!1ses-419!2sco"
+                                width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </tr>
+                </tbody>
+            </table>
 
         </div>
         <footer id="fprincipal">
-            <div><p>© 2025 Tabla de etiquetas HTLM5 | Proyecto de práctica HTML5 y CSS 
-                <address> Autor: Jaider Marimon estudiante SENA | Contacto: Ficha3118302.com</address></p>
+            <div>
+                <p>© 2025 Tabla de etiquetas HTLM5 | Proyecto de práctica HTML5 y CSS
+                <address> Autor: Jaider Marimon estudiante SENA | Contacto: Ficha3118302.com</address>
+                </p>
             </div>
 
         </footer>
     </main>
-    
+
 </body>
+
 </html>
